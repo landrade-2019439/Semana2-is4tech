@@ -1,0 +1,29 @@
+.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    color: white;
+    border: solid 1px;
+    padding: 10px;
+    background-color: darkred;
+}
+
+.button2 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    color: white;
+    border: solid 1px;
+    padding: 10px;
+    background-color: darkgreen;
+}
+
+.button3 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    color: white;
+    border: solid 1px;
+    padding: 10px;
+    background-color: darkblue;
+}

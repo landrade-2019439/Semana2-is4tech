@@ -1,0 +1,472 @@
+/* Vista 1 */
+
+.container,
+    .container4 {
+    border: solid 1.5px;
+    border-color: lightgray;
+    width: 450px;
+    margin: 35px;
+    border-radius: 5px;
+    background-color: #677f9b;
+    color: white;
+}
+
+.container:hover, 
+    .container4:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.container h1, 
+    .container4 h1 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.container2, 
+    .container3{
+    border: solid 1.5px;
+    border-color: lightgray;
+    width: 990px;
+    margin: 35px;
+    border-radius: 5px;
+    background-color: #677f9b;
+    color: white;
+}
+
+.container2:hover, 
+    .container3:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.container2 h1,
+    .container3 h1 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.especial{
+    background-color: white;
+    color: black;
+    height: 200px;
+    margin-bottom: 1px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.emparejar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.largo {
+    height: 400px;
+}
+
+.prueba {
+    display: inline-block;
+}
+
+/* Vista 2 */
+
+.body {
+    background-color: lightgray;
+}
+
+.intro {
+    margin: 20px 10px 0px;
+    width: 1645px;
+    border: solid grey 1px;
+    height: 50px;
+    background-color: white;
+}
+
+.intro h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    top: 102px;
+    left: 1550px;
+    background-color: darkturquoise;
+    font-size: 12px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.verde {
+    background-color: #01ca84;
+    border: 1px dotted grey;
+    border-radius: 20px;
+    width: 375px;
+    height: 75px;
+    margin: 20px
+}
+
+.verde h1 {
+    font-weight: normal;
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    padding-right: 60px;
+}
+
+.circulo {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.vacio {
+    visibility: hidden;
+}
+
+#pareja {
+    position: absolute;
+    top: 207px;
+    left: 330px;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    padding-right: 82px;
+}
+
+.azul {
+    background-color: #00a8fb;
+    border: 1px dotted grey;
+    border-radius: 20px;
+    width: 375px;
+    height: 75px;
+    margin: 20px
+}
+
+.azul h1 {
+    font-weight: normal;
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    padding-right: 24px;
+}
+
+#pareja2 {
+    position: absolute;
+    top: 207px;
+    left: 740px;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+}
+
+.rojo {
+    background-color: #ff416b;
+    border: 1px dotted grey;
+    border-radius: 20px;
+    width: 375px;
+    height: 75px;
+    margin: 20px
+}
+
+.rojo h1 {
+    font-weight: normal;
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    padding-right: 48px;
+}
+
+#pareja3 {
+    position: absolute;
+    top: 207px;
+    left: 1150px;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+}
+
+.naranja {
+    background-color: #ff9a00;
+    border: 1px dotted grey;
+    border-radius: 20px;
+    width: 375px;
+    height: 75px;
+    margin: 20px
+}
+
+.naranja h1 {
+    font-weight: normal;
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    padding-right: 43px;
+}
+
+#pareja4 {
+    position: absolute;
+    top: 207px;
+    left: 1565px;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+}
+
+#contenedor-iz {
+    background-color: white;
+    color: black;
+    height: 400px;
+    width: 780px;
+    margin-left: 20px;
+}
+
+#contenedor-iz:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#contenedor1-de {
+    background-color: white;
+    color: black;
+    height: 250px;
+    width: 368px;
+    margin-left: 10px;
+    position: absolute;
+    top: 260px;
+    left: 845px;
+}
+
+#contenedor1-de:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#contenedor2-de {
+    background-color: white;
+    color: black;
+    height: 250px;
+    width: 368px;
+    margin-left: 10px;
+    position: absolute;
+    top: 260px;
+    left: 1255px;
+}
+
+#contenedor2-de:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#contenedor3-ab {
+    background-color: white;
+    color: black;
+    height: 120px;
+    width: 778px;
+    margin-left: 10px;
+    position: absolute;
+    top: 530px;
+    left: 845px;
+}
+
+#contenedor3-ab:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#contenedor-g {
+    background-color: white;
+    color: black;
+    height: 500px;
+    width: 1030px;
+    margin-right: 10px;
+}
+
+#contenedor-g:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#contenedor-p {
+    background-color: white;
+    color: black;
+    height: 500px;
+    width: 530px;
+    margin-left: 10px;
+}
+
+#contenedor-p:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Vista 3 */
+
+.cuerpo {
+    background-color: #f2f1ff;
+}
+
+.columna {
+    background-color: #b87aff;
+    width: 300px;
+    height: 1500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.columna h1 {
+    color: white;
+    padding-top: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#invisible {
+    background-color: #f2f1ff;
+}
+
+#invisible h1 {
+    font-weight: bold;
+    position: absolute;
+    left: 350px;
+    top: 18px;
+}
+
+#invisible p {
+    font-weight: normal;
+    position: absolute;
+    left: 450px;
+    top: 10px;
+    font-size: 30px;
+}
+
+#color {
+    background-color: #b87aff;
+    color: white;
+    border-radius: 20px;
+    width: 750px;
+    height: 150px;
+    position: absolute;
+    top: 125px;
+    left: 350px;
+}
+
+#color:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.contenedor1 {
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    border: solid 1.5px;
+    border-color: lightgray;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.contenedor1:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.contenedor2 {
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    border: solid 1.5px;
+    border-color: lightgray;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.contenedor2:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.contenedor3 {
+    position: absolute;
+    background-color: white;
+    top: 740px;
+    left: 350px;
+    border: solid 1.5px;
+    border-color: lightgray;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.contenedor3:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.contenedor4 {
+    position: absolute;
+    background-color: white;
+    top: 640px;
+    left: 750px;
+    border: solid 1.5px;
+    border-color: lightgray;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.contenedor4:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.contenedor5 {
+    position: absolute;
+    background-color: white;
+    top: 125px;
+    left: 1150px;
+    border: solid 1.5px;
+    border-color: lightgray;
+    height: 915px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+.contenedor5:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
